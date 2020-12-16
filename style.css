@@ -12,7 +12,8 @@ html, body {
 
 body {
   align-items: center;
-  background-color: ;
+  background-color:rgba(0, 0, 0, 0);
+
   display: flex;
   font-family: -apple-system, 
     BlinkMacSystemFont, 
@@ -39,7 +40,7 @@ h1 {
 
 li {
   display: inline-block;
-  font-size: 1.5em;
+  font-size: 1em;
   list-style-type: none;
   padding: 1em;
   text-transform: uppercase;
@@ -47,7 +48,7 @@ li {
 
 li span {
   display: block;
-  font-size: 4.5rem;
+  font-size: 2.5rem;
 }
 
 .message {
