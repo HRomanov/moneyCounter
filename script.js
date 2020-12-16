@@ -28,8 +28,8 @@
           // document.getElementById("hours").innerText = dhour,
           // document.getElementById("minutes").innerText = dminute,
           // document.getElementById("seconds").innerText = dsecond;
-          document.getElementById("dollars").innerText = point1.toFixed(5);
-          document.getElementById("dollars2").innerText = point2.toFixed(5);
+          document.getElementById("dollars").innerText = point1.toFixed(3);
+          document.getElementById("dollars2").innerText = point2.toFixed(3);
 
 
       }, 0)
