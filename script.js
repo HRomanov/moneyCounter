@@ -31,6 +31,11 @@
           document.getElementById("dollars").innerText = point1.toFixed(3);
           document.getElementById("dollars2").innerText = point2.toFixed(3);
 
+          grn1=point1*28;
+          grn2=point2*28;
+          document.getElementById("grn1").innerText = grn1.toFixed(3);
+          document.getElementById("grn2").innerText = grn2.toFixed(3);
+
 
       }, 0)
   }());
